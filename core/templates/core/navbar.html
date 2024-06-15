@@ -44,7 +44,7 @@
                     </a>
                 {% else %}
                     <p class="me-5 balance">Balance: {{ user.user_account.balance }}tk</p>
-                    <a href="{% url "registration" %}">
+                    <a href="{% url "profile" %}">
                         <button class="btn btn-dark me-2" type="submit">Profile</button>
                     </a>
                     <form action="{% url "logout" %}" method="post">
